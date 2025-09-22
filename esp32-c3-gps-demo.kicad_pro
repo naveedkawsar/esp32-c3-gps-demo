@@ -877,6 +877,10 @@
     [
       "381d9348-5880-4d6e-bf80-1347922c9fad",
       "Root"
+    ],
+    [
+      "30cd135a-3840-4cae-be8b-e4cc5dbaf0b8",
+      "I2C-Slaves"
     ]
   ],
   "text_variables": {}

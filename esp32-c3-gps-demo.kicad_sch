@@ -5410,16 +5410,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 158.75) (xy 62.23 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41900ec3-59d7-478b-b930-ef41a5a4a4e2")
-	)
-	(wire
-		(pts
 			(xy 236.22 31.75) (xy 236.22 29.21)
 		)
 		(stroke
@@ -5597,6 +5587,16 @@
 			(type default)
 		)
 		(uuid "5ace295a-93f6-4586-8edc-28f50ca3b9d0")
+	)
+	(wire
+		(pts
+			(xy 45.72 156.21) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af63ff1-e276-41cd-bb07-0125ae9a696c")
 	)
 	(wire
 		(pts
@@ -5937,6 +5937,16 @@
 			(type default)
 		)
 		(uuid "7ba65291-5acf-4886-a904-352ef95e0cd0")
+	)
+	(wire
+		(pts
+			(xy 45.72 158.75) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdef235-c56c-48e7-a9b5-c346b8628cbb")
 	)
 	(wire
 		(pts
@@ -7100,16 +7110,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 156.21) (xy 62.23 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84128da-6c9f-48d4-ac38-4895ba08d822")
-	)
-	(wire
-		(pts
 			(xy 210.82 67.31) (xy 210.82 64.77)
 		)
 		(stroke
@@ -7607,6 +7607,50 @@
 			(justify left bottom)
 		)
 		(uuid "fc6d0a57-ff5d-44ad-a72c-63c03ff57046")
+	)
+	(global_label "I2C_SCLK"
+		(shape bidirectional)
+		(at 45.72 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b77f22e7-5755-42b9-aa41-e6fd297940b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.794 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 45.72 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edf339e5-5b3d-4571-a96f-8ae829ef192c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.0035 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -15737,6 +15781,48 @@
 				(path "/381d9348-5880-4d6e-bf80-1347922c9fad"
 					(reference "#PWR04")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 78.74)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30cd135a-3840-4cae-be8b-e4cc5dbaf0b8")
+		(property "Sheetname" "I2C-Slaves"
+			(at 109.22 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-slaves.kicad_sch"
+			(at 109.22 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32-c3-gps-demo"
+				(path "/381d9348-5880-4d6e-bf80-1347922c9fad"
+					(page "2")
 				)
 			)
 		)
