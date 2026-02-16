@@ -879,6 +879,10 @@
       "Root"
     ],
     [
+      "87b01a1b-f6d8-41e9-97dd-c5c321e68c04",
+      "MCU-GPS-Flash"
+    ],
+    [
       "30cd135a-3840-4cae-be8b-e4cc5dbaf0b8",
       "I2C-Slaves"
     ]
